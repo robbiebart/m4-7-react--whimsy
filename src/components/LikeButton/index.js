@@ -11,7 +11,7 @@ const LikeButton = ({ isLiked, size = 40 }) => {
 
   return (
     <Wrapper style={{ width: size, height: size }}>
-      <Heart width={1} isToggled={isLiked} />
+      <Heart width={size} isToggled={isLiked} />
     </Wrapper>
   );
 };
